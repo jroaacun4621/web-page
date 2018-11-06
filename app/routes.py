@@ -13,3 +13,9 @@ def subscription():
     return render_template(
         'subscription.html'
     )
+
+@app.route('/experience')
+def experience():
+    return render_template(
+        'workexperience.html'
+    )
